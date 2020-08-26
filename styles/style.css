@@ -1,0 +1,39 @@
+header {
+    font-family: 'Tangerine', serif;
+    font-size: 24px;
+    background-color: green;
+    max-width: 1000px;
+    min-width: 500px;
+    height: 150px;
+    margin: 0 auto;
+}
+section {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: blue;
+    height: 450px;
+    overflow: scroll;
+}
+
+nav {
+    float: left;
+    background-color: red;
+    width: 200px;
+    height: 450px;
+}
+
+footer {
+    background-color: gray;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.commontext {
+    color: goldenrod;
+}

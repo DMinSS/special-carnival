@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Tangerine';
+    src: url('font1.woff2');
+}
+
+p {
+    color: coral;
+    font-family: 'Oxygen', sans-serif;
+}
+
+p.cool {
+    color: green;
+    font-family: 'Tangerine';
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#smallTxt {
+    color: gold;
+}
+
+#smallTxt::first-letter {
+    color: blue;
+}
+
+article>header {
+    color: red;
+}
+
+body>table:nth-child(16)>tbody>tr:nth-child(4)>td:nth-child(3) {
+    color: red;
+}
+
+ul>li {
+    display: inline;
+    background-color: #EEE;
+    border: 1px solid;
+    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+    margin: 2px;
+    padding: .5em;
+}

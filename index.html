@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>My Super Site &reg;</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
     <body>
         <h1>Hello World! &reg;</h1>
@@ -26,7 +28,7 @@
                 to make nested tags.
             </strong>
         </p>
-        <p>
+        <p id="smallTxt" style="color: aquamarine;">
             This is a 
             <small>
                 <em>
@@ -52,7 +54,7 @@
                     <h3>Semantic header</h3>
                 </header>
                 <main>
-                    Some cool text!
+                    <p class="cool">Some cool text!</p>
                 </main>
                 <aside>side menu</aside>
                 <footer>&#153; by me</footer>
@@ -106,7 +108,7 @@
         </tbody>
     </table>​
     <hr>
-    <p>Some cool list</p>
+    <p class="cool">Some cool list</p>
     <ol type="I" reversed>
         <li> some 1</li>
         <li> some 2</li>
@@ -122,7 +124,7 @@
     <form id="coolform">
         <fieldset>
             <label for="firstname">Enter First Name</label>
-            <input name="firstname" placeholder="Vasya" autofocus>
+            <input name="firstname" placeholder="Vasya">
             <label for="lastname">Enter Last Name</label>
             <input name="lastname" placeholder="Pupkin">
         </fieldset>
