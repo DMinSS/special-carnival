@@ -6,6 +6,15 @@
 p {
     color: coral;
     font-family: 'Oxygen', sans-serif;
+    border: 1px solid;
+}
+
+b {
+    color: aquamarine;
+}
+
+p b {
+    color: inherit;
 }
 
 p.cool {

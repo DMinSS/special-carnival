@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    background: #ce8888;
+}
+
+.container {
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    width: 50%;
+}
+
+.menu-container .menu {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    cursor: pointer;
+}
+
+.menu-container .menu:active, .menu-container .menu:hover {
+    background: cornflowerblue;
+}
