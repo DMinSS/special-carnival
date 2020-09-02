@@ -48,3 +48,32 @@ ul>li {
     margin: 2px;
     padding: .5em;
 }
+
+.units {
+    background: cornflowerblue;
+    border: 1px solid;
+    /* width: 500px; */
+    width: 50%;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 10px -10px 5px 3px grey;
+}
+
+.units div {
+    background: radial-gradient(50% 50%, 70% 70%, black, brown);
+    width: 50%;
+    height: 25vh;
+    font-size: 20px;
+}
+
+.columns {
+    background: radial-gradient(50% 50%, 70% 70%, black, brown);
+    column-count: 3;
+    column-gap: 3em;
+    column-rule: blueviolet solid;
+    hyphens: auto;
+}
+
+img {
+    opacity: 0.3;
+}
