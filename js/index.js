@@ -54,4 +54,5 @@ for (var i = 0; i < 100; i++) {
 var z = 0;
 while (z < 50) {
     console.log(z);
+    z++;
 }
