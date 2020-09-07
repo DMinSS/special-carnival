@@ -56,3 +56,44 @@ while (z < 50) {
     console.log(z);
     z++;
 }
+
+function Cat(name, color) {
+    this.name = name;
+    this.color = color;
+
+    this.run = function() {
+        console.log(this.name + " runs!");
+    }
+    return this;
+}
+
+var cat1 = new Cat("Snizhok", "white");
+var cat2 = new Cat("Murzik", "black");
+
+console.log(cat1.name);
+console.log(cat2.name);
+cat1.run();
+cat2.run();
+
+setTimeout(function() {
+    cat1.run();
+}, 3000);
+
+function clicker() {
+    noReturn(2,2)
+}
+
+clickbtn.onclick = clicker;
+eventbtn.addEventListener('click', function (e) {
+    console.log("clicked the button");
+}, true);
+
+bubble.addEventListener('click', function (e) {
+    console.log("clicked the div");
+    e.stopPropagation();
+    e.preventDefault();
+}, true);
+
+eventbtn.addEventListener('click', clicker, false);
+// eventbtn.removeEventListener('click', clicker);
+
