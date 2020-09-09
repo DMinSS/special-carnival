@@ -97,3 +97,10 @@ bubble.addEventListener('click', function (e) {
 eventbtn.addEventListener('click', clicker, false);
 // eventbtn.removeEventListener('click', clicker);
 
+document.querySelector('aside').addEventListener('click', function() {
+    if (document.querySelector('aside').style["font-size"] === "28px") {
+        document.querySelector('aside').style["font-size"] = "16px";
+    } else {
+        document.querySelector('aside').style["font-size"] = "28px";
+    }
+}, false)

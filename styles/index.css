@@ -17,6 +17,11 @@ p b {
     color: inherit;
 }
 
+.fade {
+    color: red;
+    font-size: large;
+}
+
 p.cool {
     color: green;
     font-family: 'Tangerine';
