@@ -13,8 +13,9 @@ function sendServerRequest() {
         }
 
         // step 2.2
+        const city = "london"
         const kostil = "https://cors-anywhere.herokuapp.com";
-        const realServer = "https://www.metaweather.com/api/location/search/?query=london";
+        const realServer = `https://www.metaweather.com/api/location/search/?query=${city}`;
         xhr.open('GET', `${kostil}/${realServer}`);
 
         // step 3
